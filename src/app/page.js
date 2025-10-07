@@ -14,10 +14,10 @@ export default function Home() {
 
   return (
     <main style={{ padding: 40, fontFamily: 'sans-serif' }}>
-      <h1>Next.js + Fastify</h1>
+      <h1>Next.js + Fastify (Timeweb Cloud)</h1>
       {error && <p style={{ color: 'red' }}>Ошибка: {error}</p>}
       {data ? (
-        <div>
+        <div style={{ marginTop: 20 }}>
           <p>{data.message}</p>
           <p>ID: {data.data.id}</p>
           <p>Name: {data.data.name}</p>
